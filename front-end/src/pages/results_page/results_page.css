@@ -1,0 +1,125 @@
+html {
+    padding: 0;
+    margin: 0;
+    /*background-color: #052d2e;*/
+    background-color: #000000;
+    overflow-x: clip;
+
+}
+
+h1 {
+    background-color: transparent;
+}
+
+img {
+    opacity: 0.2;
+}
+
+body {
+    width: 100vw;
+    height: fit-content;
+    /*background-image: url("../../assets/emoji-wallpapers.jpg");*/
+    /*background-repeat: no-repeat;*/
+
+    /*opacity: 0.2;*/
+    /*z-index: -1;*/
+    /*padding-top: 0.1%;*/
+    /*padding-left: 0.1%;*/
+    /*padding-bottom: 0.1%;*/
+    /*padding-right: 0.1%;*/
+}
+
+
+.ResultsPage {
+    text-align: justify;
+    /*background-color: #171c1c;*/
+    width: 100%;
+
+}
+
+.result-main {
+    /*background-color: #031717;*/
+    /*height: fit-content;*/
+    overflow-x: clip;
+    /*  background-image: url("../../assets/emoji-wallpapers.jpg");*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: contain;*/
+    /*background-blend-mode: overlay;*/
+    /*padding: 0;*/
+    /*background-color: rgba(0, 0, 0, 0.68);*/
+}
+
+.title {
+    color: #CBE4DE;
+
+}
+
+.pie-style {
+    height: 350px !important;
+    width: fit-content !important;
+
+}
+
+.chart {
+    position: relative;
+    top: 10%;
+    left: 7%;
+    display: grid;
+    grid-template-areas: 'myArea myArea';
+    gap: 30px;
+    /*background-color: #031617;*/
+    flex-wrap: wrap;
+    justify-items: stretch;
+    padding-bottom: 3%;
+}
+
+.chart-default {
+    height: 100%;
+    background-color: #041c1c;
+    position: relative;
+    top: 30%;
+    left: 30%;
+    width: 80%;
+    border-radius: 3%;
+    box-shadow: 0px 0.5px 20px 1px #b6ff99d9;
+}
+
+.chart1 {
+    height: 100%;
+    background-color: #041c1c;
+    width: 80%;
+    border-radius: 3%;
+    box-shadow: 0px 0.5px 20px 1px #b6ff99d9;
+}
+
+.chart2 {
+    height: 100%;
+    width: 80%;
+    background-color: #041c1c;
+    border-radius: 3%;
+    box-shadow: 0px 0.5px 20px 1px #b6ff99d9;
+
+}
+
+.chart3 {
+    height: 100%;
+    width: 80%;
+    background-color: #041c1c;
+    border-radius: 3%;
+    box-shadow: 0px 0.5px 20px 1px #b6ff99d9;
+
+}
+
+.chart4 {
+    height: 100%;
+    width: 80%;
+    background-color: #041c1c;
+    border-radius: 3%;
+    box-shadow: 0px 0.5px 20px 1px #b6ff99d9;
+
+}
+
+.model-name {
+    padding-left: 2%;
+    font-size: 20px;
+}
